@@ -22,7 +22,7 @@ Similar to the idea of feedback FM, we can translate the output of the algorithm
 
 ![Example Image](assets/Bifurcation.png)
 
-- **Stable Points**: When$r$ is low (typically lower than 3), the system converges to a single point (either $x_{n} = 0$ or $x_{n} = 1$).
+- **Stable Points**: When $r$ is low (typically lower than 3), the system converges to a single point (either $x_{n} = 0$ or $x_{n} = 1$).
 
 - **Periodic Oscillations**: For certain values of $r$  (between 3 and 3.57), the system starts to exhibit periodic oscillations. For example, it may alternate between two values, then four, eight, etc.
 
@@ -38,14 +38,14 @@ Playing with these parameters to discover sounds:
 
 ### Mod
 
-**1. ** Set initial value of $x_{n}$ and $r$ to reach find critical points of chaos. 
+**1.  Set initial value of $x_{n}$ and $r$ to reach find critical points of chaos. 
 
 - **Stable region**: $r \in [2.8, 3.0]$
 - **Periodic oscillation region**: $r \in [3.0, 3.57]$
 - **Chaos region**: $r \in [3.57, 4.0]$ , in this state little changes happen to $x_{n}$ can result in great changes.
 - **Beyond $r = 4.0$**: not used, as the logistic function becomes invalid. 
 
-**2. ** Modulation
+**2.  Modulation
 
 - Change Chaos Freq : central frequency of the generated waveform.
 - Modulation: amount of modulation on carrier.
