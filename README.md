@@ -1,4 +1,4 @@
-# ChaoAlgorithm for FM Synthesis
+# Chaotic Algorithm for FM Synthesis
 
 This project uses the **Logistic Map** (also known as the **Logistic Equation**) to generate a waveform for modulating an **FM synthesizer** in MAX MSP. The Logistic Map is a simple, non-linear iterative system that exhibits a wide range of behaviors, including stable points, periodic oscillations, and chaotic dynamics. This unpredictability makes it an interesting tool for generating modulating signals that add complexity and randomness to FM synthesis.
 
