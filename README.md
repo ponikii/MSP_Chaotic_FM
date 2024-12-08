@@ -22,7 +22,7 @@ Similar to the idea of feedback FM, we can translate the output of the algorithm
 
 ### Key Behaviors of the Logistic Map:
 
-![Example Image](assets/Bifurcation diagram.png)
+![Example Image](assets/Bifurcation.png)
 
 - **Stable Points**: When$\ r $ is low (typically$\ r $), the system converges to a single point (either $  x_{n} = 0 $ or $  x_{n} = 1 $).
 
