@@ -22,11 +22,11 @@ Similar to the idea of feedback FM, we can translate the output of the algorithm
 
 ![Example Image](assets/Bifurcation.png)
 
-- **Stable Points**: When$r$ is low (typically$\ r $), the system converges to a single point (either $x_{n} = 0$ or $x_{n} = 1$).
+- **Stable Points**: When$r$ is low (typically lower than 3), the system converges to a single point (either $x_{n} = 0$ or $x_{n} = 1$).
 
-- **Periodic Oscillations**: For certain values of $\ r $  (between 3 and 3.57), the system starts to exhibit periodic oscillations. For example, it may alternate between two values, then four, eight, etc.
+- **Periodic Oscillations**: For certain values of $r$  (between 3 and 3.57), the system starts to exhibit periodic oscillations. For example, it may alternate between two values, then four, eight, etc.
 
-- **Chaos**: When $ r $  is greater than 3.57, the system exhibits chaotic behavior, where tiny changes in initial conditions lead to drastically different outcomes. This behavior is what makes the Logistic Map ideal for generating unpredictable waveforms. In a random system, sound generated each time differs, with that comes nothing but uncertainty. But in a chaotic system, we start off at a certain state,  as parameters changes over time the system generates more randomness. Finding the boundaries between chaos and order through experiments can result in very interesting sounds.
+- **Chaos**: When $r$  is greater than 3.57, the system exhibits chaotic behavior, where tiny changes in initial conditions lead to drastically different outcomes. This behavior is what makes the Logistic Map ideal for generating unpredictable waveforms. In a random system, sound generated each time differs, with that comes nothing but uncertainty. But in a chaotic system, we start off at a certain state,  as parameters changes over time the system generates more randomness. Finding the boundaries between chaos and order through experiments can result in very interesting sounds.
 
   
 
@@ -38,7 +38,7 @@ Playing with these parameters to discover sounds:
 
 ### Mod
 
-**1. ** Set initial value of $  x_{n} $ and $  r $ to reach find critical points of chaos. 
+**1. ** Set initial value of $x_{n}$ and $r$ to reach find critical points of chaos. 
 
 - **Stable region**: $r \in [2.8, 3.0]$
 - **Periodic oscillation region**: $r \in [3.0, 3.57]$
