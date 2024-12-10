@@ -64,8 +64,9 @@ Shift the global pitch in situations where tonal characteristics are needed.
 
 
 
-## To be added
+## Next
 
 - polyphonic voices
 - more modulators
 - wavetable for carrier
+- more algorithm possible: Henon Mapping, Chua's Circuit, Random Walk, Fractal Noise, Mandelbrot
